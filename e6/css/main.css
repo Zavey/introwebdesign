@@ -1,0 +1,36 @@
+body {
+  margin:  0;
+  padding: 0;
+  background-color: black;
+
+}
+div{
+  width: 100px;
+  height: 100px;
+  }
+  .first {
+    background-color: gold;
+    opacity: 0.5;
+    float: right;
+
+  }
+  .second {
+    background-color: skyblue;
+    opacity: 0.5;
+    float: left;
+  }
+.third{
+  background-color: pink;
+  opacity: 0.5;
+  float: right;
+ -webkit-transform: translate(5px, 95px); /* Safari */
+ transform: translate(5px, 95px);
+
+}
+.fourth{
+  background-color: lightgreen;
+  opacity: 0.5;
+  float: left;
+ -webkit-transform: translate(-6px, 95px); /* Safari */
+ transform: translate(-6px, 95px);
+}
