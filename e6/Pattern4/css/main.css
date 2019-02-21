@@ -1,0 +1,60 @@
+body {
+  margin:  0;
+  padding: 0;
+  background-color: grey;
+
+}
+div{
+  width: 100px;
+  height: 100px;
+  }
+  .first {
+    width: 150px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    float: left;
+    transform: rotate(50deg);
+    position: relative;
+    left: 190px;
+    top: 370px;
+
+  }
+  .second {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    opacity: .75;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 75px;
+    top: 100px;
+      transform: rotate(45deg);
+  }
+.third{
+  width: 150px;
+  height: 300px;
+  background-color: pink;
+  opacity: 1;
+  float: left;
+  position: relative;
+  left: 19px;
+  top: 175px;
+  transform: rotate(50deg);
+}
+.fourth{
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  opacity: .75;
+  float: left;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;;
+  right: 200px;
+  top: 250px;
+  transform: rotate(45deg);
+
+}

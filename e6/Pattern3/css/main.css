@@ -1,0 +1,58 @@
+body {
+  margin:  0;
+  padding: 0;
+  background-color: red;
+
+}
+div{
+  width: 100px;
+  height: 100px;
+  }
+  .first {
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    opacity: 1;
+    float: left;
+    transform: rotate(50deg);
+    position: relative;
+    left: 120px;
+    top: 400px;
+
+  }
+  .second {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    opacity: .75;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 75px;
+    top: 100px;
+  }
+.third{
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  opacity: 1;
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 400px;
+  transform: rotate(45deg);
+}
+.fourth{
+  width: 400px;
+  height: 400px;
+  background-color: lightgreen;
+  opacity: 1;
+  float: left;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;;
+  right: 320px;
+  top: 350px;
+
+}
