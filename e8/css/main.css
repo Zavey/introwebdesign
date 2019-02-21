@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.dot2 {
+  height: 775px;
+  width: 775px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;;
+  bottom: 500px;
+  left: 890px;
+}
+.absolute5 {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: pink;
+  position: absolute;
+  top: 500px;
+  right: 175px;
+}
+.absolute4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+}
+.dot {
+  height: 750px;
+  width: 750px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;;
+  bottom: 505px;
+  left: 900px;
+}
+.relative {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  top: 180px;
+  left: 1000px;
+}
+.relative2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  top: 180px;
+  left: 1100px;
+}
+
+.absolute2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+  position: relative;
+  top: 101px;
+  left: 55px;
+}
+.absolute3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+  position: relative;
+  top: 1px;
+  right: 250px;
+}

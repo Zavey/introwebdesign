@@ -1,0 +1,59 @@
+a{
+  box-sizing: border-box;
+}
+body{
+
+margin: 75px;
+
+}
+div{
+  width: 100px;
+  height: 100px;
+float: left;
+
+
+}
+.board{
+
+  width: 500px;
+}
+
+.block1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+
+
+}
+
+
+.block2 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: relative; top:75px;
+
+}
+
+.block3 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: relative; top:-225px; left:550px;
+
+}
+.block4 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: relative; top:-125px; left:450px;
+
+}
+
+.block5 {
+  background-color: black;
+  width: 100px;
+  height: 25px;
+  position: relative; top:90px; right:200px;
+
+}
