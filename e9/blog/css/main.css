@@ -18,10 +18,13 @@ float: left;
   width: 500px;
 }
 
+
+
 .block1 {
   background-color: red;
   width: 100px;
   height: 100px;
+  position: relative;top: 40px;
 
 
 }
@@ -51,9 +54,26 @@ float: left;
 }
 
 .block5 {
-  background-color: black;
+  background-color: red;
   width: 100px;
   height: 25px;
   position: relative; top:90px; right:200px;
+
+}
+.block6 {
+  background-color: red;
+  width: 100px;
+  height: 25px;
+  position: relative; top:65px; left:100px;
+
+}
+
+
+
+.block8 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: relative; top:200px;
 
 }
