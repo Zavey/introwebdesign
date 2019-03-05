@@ -1,0 +1,51 @@
+body {
+
+  .center
+  margin: auto;
+  width: 97%;
+
+  padding: 10px;
+
+  text-align: center;
+  background-color: grey;
+  position: absolute; top: 0px;
+}
+
+a.yeet{
+  text-align: center;
+  font-family: "Times New Roman";
+  text-transform: lowercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: gold;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a.yeet:hover{
+  color: red;
+}
+h1{
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  position: absolute; top: 650px; right: 200px;
+
+}
+
+p {
+text-align: center;
+font-family: cursive;
+text-transform: uppercase;
+font-size: 700%;
+}
+a.yuh {
+text-align: left;
+font-family: cursive;
+text-transform: uppercase;
+font-size: 300%;
+}
+a.gold{
+  font: gold;
+}

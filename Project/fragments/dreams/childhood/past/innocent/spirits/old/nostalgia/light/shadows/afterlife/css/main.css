@@ -1,0 +1,33 @@
+body {
+
+  .center
+  margin: auto;
+  width: 97%;
+  border: 3px solid black;
+  padding: 10px;
+
+  text-align: center;
+  background-color: grey;
+  position: absolute; top: 0px;
+}
+
+a.yeet{
+  text-align: center;
+  font-family: "Times New Roman";
+  text-transform: lowercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: gold;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a.yeet:hover{
+  color: red;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: right;
+  font-family: cursive;
+}
