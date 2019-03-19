@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: indianred;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5
+  border: 3px solid white;
+  padding: 10px;
+
+}
+
+#container {
+  width: 1800px;
+  margin: 0px auto 100px;
+
+}
+
+.container2 {
+width: 500px;
+height: 500px;
+margin: 100px  0px;
+float: left;
+position: relative; bottom: 300px; right: 950px;
+
+
+}
+
+.container3 {
+width: 600px;
+margin: 100px  0px;
+float: left;
+position: relative; top: 200px; left: 625px;
+transform: rotate(-270deg);
+}
+
+.container4 {
+width: 1000px;
+margin: 100px  0px;
+float: left;
+position: relative; bottom: 250px; right: 200px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+h1 {
+  margin-top: 10;
+  font-size: 11.089em;
+position: relative; left: 550px; top: 950px;
+transform: rotate(-270deg);
+}
+h2 {font-size: 4.054em;
+
+/*position: relative; left: 700px;*/
+}
+
+
+h3 {font-size: 4.236em;
+  transform: rotate(-270deg);
+/*position: relative; right: 500px; bottom: 100px;*/
+}
+
+h4 {font-size: 2.618em;}
+
+h5 {font-size: 1.618em;}
+
+
+p {
+
+margin-bottom: 1.00em;
+font-size: 17px;
+font-family: 'Open Sans Condensed', sans-serif;
+/*position: relative; bottom: 175px; right: 50px;*/
+
+}
+
+  img {
+  width: 80%;
+  margin: 0px -25px;
+  position: relative; bottom: 1300px; left: 200px;
+  opacity: 0.2;
+  /*position: absolute; top: 370px; right: 1720px;*/
+
+}
+
+/*img.yuh {
+  width: 100%;
+  margin: 50px 10px;
+  position: relative;bottom: 50px;
+  /*position: absolute; top: 370px; right: 420px;*/
+
+}
