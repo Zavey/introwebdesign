@@ -27,6 +27,11 @@ h5 {font-size: 1em;}
 img {
   width: 45%;
 }
+
+.image1 {
+  width: 100%;
+}
+
 p {
   font-family: 'Libre Baskerville', serif;
   line-height: 1.4em;
