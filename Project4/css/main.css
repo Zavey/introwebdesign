@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: moccasin;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5
+  border: 3px solid white;
+  padding: 10px;
+  text-align: center;
+
+}
