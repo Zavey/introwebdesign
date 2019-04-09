@@ -13,6 +13,11 @@ body {
 #anime-5 {
   transition: all 2s ease;
 }
+
+/*img {
+  width: 50%;
+} */
+
 .thistle {
   background-color: thistle;
 }
