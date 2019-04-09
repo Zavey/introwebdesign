@@ -8,49 +8,45 @@ body {
   height: 100vh;
 }
 #list-name {
-  background-color: grey;
+  background-color: white;
 }
 #anime-5 {
   transition: all 2s ease;
 }
 
-/*img {
-  width: 50%;
-} */
 
-.thistle {
-  background-color: thistle;
-}
 #anime-4 {
-  background-color: steelblue;
+  transition: all 2s ease;
 }
-.navy{
-  background-color: navy;
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
 }
+
 #anime-3 {
-  background-color: tan;
+  transition: all 2s ease;
+
 }
-.black {
-  background-color: black;
-}
+
+
 #anime-2 {
-  background-color: plum;
+  transition: all 2s ease;
 }
-.orchid {
-  background-color: orchid ;
-}
+
+
 #anime-1 {
-  background-color: olive;
+  transition: all 2s ease;
 }
-.olivedrab {
-  background-color: olivedrab ;
-}
+
 h1 {
   font-size: 5em;
   margin: 0;
   padding: 40vh 0 0 0;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Permanent Marker', cursive;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;

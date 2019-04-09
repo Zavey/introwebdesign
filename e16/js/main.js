@@ -1,24 +1,24 @@
 $(document).ready(function() {
 
   $('#number5').click(function() {
-    $('#number5').css('color', 'white');
-    $('#bird-5').toggleClass('black');
+    $('#number5').css('color', 'yellow');
+    $('#anime-5').toggleClass('image1');
   });
   $('#number4').click(function() {
-    $('#number4').css('color', 'navy');
-    $('#bird-5').toggleClass('black');
+    $('#number4').css('color', 'brown');
+    $('#anime-4').toggleClass('image1');
   });
   $('#number3').click(function() {
-    $('#number3').css('color', 'brown');
-    $('#bird-3').toggleClass('black');
+    $('#number3').css('color', 'blue');
+    $('#anime-3').toggleClass('image1');
   });
   $('#number2').click(function() {
-    $('#number2').css('color', 'orchid');
-    $('#bird-2').toggleClass('black');
+    $('#number2').css('color', 'red');
+    $('#anime-2').toggleClass('image1');
   });
   $('#number1').click(function() {
-    $('#number1').css('color', 'olivedrab');
-    $('#bird-1').toggleClass('black');
+    $('#number1').css('color', 'green');
+    $('#anime-1').toggleClass('image1');
   });
 });
 
