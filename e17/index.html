@@ -5,29 +5,25 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<!-- Number Guess -->
-		<div id="container">
-			<h1>What is the Planet?</h1>
-			  <img src="https://images.vexels.com/media/users/3/139158/isolated/preview/c862a3c9ef219140fb365301f9ebbd50-black-dot-by-vexels.png" class="image1">
-			<input type="Number" name="guess">
-			<div id="submit" class="button">
-				<p>Guess</p>
-				
-			</div>
-			<div class="guesses">
-				<p></p>
-			</div>
+		<div class="wrapper">
+		   <h1>Hangman</h1>
+
+		    <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
 		</div>
-
-		<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-
-		<!-- Number Guess JS -->
-		<script src="js/planet.js"></script>
-
-		<!-- Color Guess JS -->
- 		<!-- <script src="js/color.js"></script> -->
+		<div class="wrapper">
+		    <div id="buttons">
+		    </div>
+		    <p id="catagoryName"></p>
+		    <div id="hold">
+		    </div>
+		    <p id="mylives"></p>
+		    <p id="clue">Clue -</p>
+		     <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+		    <div class="container">
+		      <button id="hint">Hint</button>
+		      <button id="reset">Play again</button>
+		    </div>
+		</div>
+		 <script src="js/script.js"></script>
 	</body>
 </html>
